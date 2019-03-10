@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'Lato-bold'; 
+    src: url('assets/fonts/Lato-bold.ttf');
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular'; 
+    src: url('assets/fonts/MyriadPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'MavenProRegular'; 
+    src: url('assets/fonts/Maven Pro Regular.otf');
+}
+
+@font-face {
+    font-family: 'Lato-Regular'; 
+    src: url('assets/fonts/Lato-Regular.ttf');
+}
+
+html, body {
+    padding: 0; 
+    margin: 0;
+    width: 100%;
+    min-width: 1020px;
+}
+
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'MavenProRegular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    margin: 5px 0 0;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'MavenProRegular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;
+    margin: 0 0 0 3px;
+    font-weight: normal;
+}
+
+header h1 {
+    position: absolute;
+    visibility: hidden;
+}
+
+nav {
+    height: 64px;
+    background: #323232;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: -15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+nav ul li a {
+    font-family: 'Lato-Bold', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 7.21379pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgba(46, 179, 152, 255);
+}
+
+.dot {
+    color: #3c3e47;
+}
+
+.triangle-menu {
+    position: relative;
+    left: 3px;
+    top: 25px;
+    margin: 0 34px;
+    padding-bottom: 22px;
+}
+
+header hr {
+    margin-top: -15px;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+    width: 1020px;
+    opacity: 0.2;
+}
+
+.triangle-navbar {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 45px 0 45px;
+    border-color: #323232 transparent transparent transparent;
+    margin: 0 auto;
+    left: 0;
+    z-index: 1;
+    right: 0;
+    position: relative;
+    background: #fff;
+}
+
+.hexagon-container:first-child {
+    margin-top: 65px;
+}
+
+.hexagon-container {
+    width: 100%;
+    text-align: center;
+    margin-top: -62px;
+}
+
+.hexagon {
+    width: 180px;
+    height: 210px;
+    margin: 9px;
+    transform: rotate(120deg);
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+
+.hex-layer-1 {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: hidden;  
+}
+
+.hex-layer-2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 204, 204, 0.2);
+    transform: rotate(-60deg);
+    overflow: hidden;
+    visibility: visible;  
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.hex-img-1 {
+    background-image: url('assets/img/hexagon/1.png');
+}
+
+.hex-img-2 {
+    background-image: url('assets/img/hexagon/2.png');
+}
+
+.hex-img-3 {
+    background-image: url('assets/img/hexagon/3.png');
+}
+
+.hex-img-4 {
+    background-image: url('assets/img/hexagon/4.png');
+    background-position: 50% 140%;
+}
+
+.hex-img-5 {
+    background-image: url('assets/img/hexagon/5.png');
+}
+
+.hex-img-6 {
+    background-image: url('assets/img/hexagon/6.png');
+}
+
+.hex-img-7 {
+    background-image: url('assets/img/hexagon/7.png');
+}
+
+.hex-img-8 {
+    background-image: url('assets/img/hexagon/8.png');
+}
+
+.hex-img-9 {
+    background-image: url('assets/img/hexagon/9.png');
+}
+
+.hex-img-10 {
+    background-image: url('assets/img/hexagon/10.png');
+}
+
+.hex-img-11 {
+    background-image: url('assets/img/hexagon/11.png');
+}
+
+.hex-img-12 {
+    background-image: url('assets/img/hexagon/12.png');
+}
+
+.hex-img-13 {
+    background-image: url('assets/img/hexagon/13.png');
+}
+
+.hexagon-section {
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.hexagon-section hr {
+    margin: 9px 28px;
+    border-color: #e4e9eb;
+    opacity: 0.2;
+}
+
+.square-blocks {
+    margin: 45px 0 0 29px;
+}
+
+.square {
+    width: 6px;
+    height: 6px;
+    margin-right: 1px;
+    background: #ddd2c5;
+    display: inline-block;
+}
+
+.square:hover {
+    background: #8b8784;
+}
+
+.autor-section {
+    height: 315px;
+    background: #2eb398;
+    padding: 13px 0;
+}
+
+.autor-section .hex-layer-2 {
+    background-image: url(assets/img/autor.png);
+}
+
+.autor-section figure {
+    display: grid;
+    grid-template-columns: 26.5% 73.5%;
+    width: 820px;
+    margin: 0 auto;
+    padding-top: 43px;
+    border-left: 1px solid #219d84;
+    border-right: 1px solid #219d84;
+}
+
+.autor-section h3 {
+    font-family: 'MavenProRegular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;
+    margin: 0 0 0 3px;
+    font-weight: normal;
+}
+
+.autor-section p {
+    font-family: 'Lato-Regular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+    padding-right: 20px;
+    margin: 14px 0 0 5px;
+    line-height: 1.8;
+}
+
+.autor-section .hexagon {
+    margin-left: 20px;
+}
+
+.social-buttons {
+    text-align: right;
+    padding: 35px 21px 0 0;
+}
+
+.social-buttons div {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 0 -1px;
+    background-blend-mode: multiply;
+    background-color: #219d84;
+    opacity: 0.5;
+}
+
+.social-buttons a {
+    width: 24px;
+    height: 24px;
+    text-decoration: none;
+}
+
+.social-buttons div:hover {
+    background-color: #fff;
+}
+
+.facebook {
+    background-image: url(assets/img/Facebook@1X.png);
+}
+
+.twitter {
+    background-image: url(assets/img/Twitter@1X.png);
+}
+
+.google {
+    background-image: url(assets/img/Google@1X.png);
+}
+
+.pinterest {
+    background-image: url(assets/img/Pinterest@1X.png);
+}
+
+.linkedin {
+    background-image: url(assets/img/Linkedin@1X.png);
+}
+
+.dribbble {
+    background-image: url(assets/img/Dribbble@1X.png);
+}
+
+footer {
+    background: #323232;
+}
+
+footer h1 {
+    color: rgba(224, 224, 224, 255);
+    margin: 0;
+}
+
+footer section {
+    width: 820px;
+    margin: 0 auto;
+    padding: 61px 0 44px 39px;
+}
+
+.form-block {
+    display: grid;
+    grid-template-columns: 71% 27%;
+    padding-top: 18px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0 13px 0 0;
+}
+
+footer input,
+footer textarea {
+    display: block;
+    height: 33px;
+    width: 100%;
+    margin-bottom: 19px;
+    background: #454545;
+    font-family: 'Lato-Regular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #aaa;
+    text-align: justify;
+    border: none;
+    padding-left: 13px;
+    resize: none;
+}
+
+footer textarea {
+    padding: 10px 0 0 13px;
+    height: 140px;
+    margin: 0;
+} 
+
+footer h3 {
+    color: rgba(190, 190, 190, 255);
+}
+
+footer button {
+    width: 90px;
+    height: 37px;
+    float: right;
+    margin-top: 15px;
+    font-family: 'Lato-Bold', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(215, 252, 245, 255);
+    text-align: center;
+    text-transform: uppercase;
+    background: #2eb398;
+    border: none;
+    cursor: pointer;
+}
+
+footer hr {
+    margin: 9px auto;
+    border-color: #2b2b2b;
+    opacity: 0.2;
+    width: 1020px;
+}
+
+footer hr:first-child {
+    margin: 0 auto;
+    top: 13px;
+    position: relative;
+}
+
+.description { 
+    padding: 0 20px;
+}
+
+.description p {
+    font-family: 'Lato-Regular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+    line-height: 1.8;
+    margin: -6px 0 0;
+}
+
+.contacts {
+    padding-top: 38px;
+}
+
+.contacts p {
+    font-family: 'Lato-Bold', 'MyriadPro-Regular', Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 2.4;
+}
+
+.contacts p a {
+    color: rgba(224, 224, 224, 255);
+    text-decoration: none;
+}
+
+.contacts span {
+    margin-left: 7px;
+}
+
+.copyright {
+    height: 43px;
+    background: #222;
+    padding: 0;
+    width: 100%;
+}
+
+.copyright div {
+    width: 1020px;
+    margin: 0 auto;
+    padding-left: 77px;
+    font-size: 12px;
+    font-family: 'MavenProRegular', 'MyriadPro-Regular', Helvetica, sans-serif;
+    color: rgba(69, 69, 69, 255);
+    line-height: 43px;
+}
